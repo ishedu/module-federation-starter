@@ -22,7 +22,9 @@
     ],
     "paths": {
       "@styles/*": ["styles/*"]
-    }
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
